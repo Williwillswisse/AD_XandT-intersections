@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="tcrossing-0m-line.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.11"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="5" diffuseColor="0 1 0 1">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="6" diffuseColor="0.894118 1 0 1">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="7" diffuseColor="0.913726 1 0 1">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="9" diffuseColor="1 1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tcrossing-0m-line.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="groundStain" clipDistance="300" nodeId="127">
+      <TransformGroup name="clearAreas" clipDistance="300" nodeId="128">
+        <TransformGroup name="clearArea1Start" translation="-0.5 0 -0.5" clipDistance="300" nodeId="129">
+          <TransformGroup name="clearArea1Width" translation="0 0 1" clipDistance="300" nodeId="130"/>
+          <TransformGroup name="clearArea1Height" translation="1 0 0" clipDistance="300" nodeId="131"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelAreas" clipDistance="300" nodeId="132">
+        <TransformGroup name="levelAreaStart01" nodeId="133">
+          <TransformGroup name="levelAreaWidth01" nodeId="134"/>
+          <TransformGroup name="levelAreaHeight01" nodeId="135"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="testAreas" clipDistance="300" nodeId="136">
+        <TransformGroup name="testAreaStart01" nodeId="137">
+          <TransformGroup name="testAreaEnd01" nodeId="138"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" clipDistance="300" nodeId="139"/>
+      <TransformGroup name="positionRefs" clipDistance="300" nodeId="140">
+        <TransformGroup name="positionRef1" translation="0 0 3" clipDistance="300" nodeId="141"/>
+        <TransformGroup name="positionRef2" translation="-3 0 -3" clipDistance="300" nodeId="142"/>
+        <TransformGroup name="positionRef3" translation="3 0 -3" clipDistance="300" nodeId="143"/>
+      </TransformGroup>
+      <TransformGroup name="tipCollision" clipDistance="300" nodeId="144"/>
+      <TransformGroup name="visuals" clipDistance="300" nodeId="145">
+        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="146" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="9"/>
+        <Shape name="cube" translation="0 0 4.5" shapeId="2" clipDistance="300" nodeId="147" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
+        <Shape name="cube" translation="4.5 0 -1.59648e-07" rotation="0 90 0" shapeId="3" clipDistance="300" nodeId="148" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
+        <Shape name="cube" translation="-4.5 0 -1.59648e-07" rotation="0 90 0" shapeId="4" clipDistance="300" nodeId="150" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
+        <Shape name="cylinder" shapeId="5" clipDistance="300" nodeId="151" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+        <TransformGroup name="A" translation="0 0 0.5" clipDistance="300" nodeId="152">
+          <Shape name="cylinder1" translation="-1.5 0 0" shapeId="5" clipDistance="300" nodeId="153" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder3" translation="-0.75 0 0" shapeId="5" clipDistance="300" nodeId="154" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder4" translation="-0.5 0 0" shapeId="5" clipDistance="300" nodeId="155" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder6" translation="0.5 0 0" shapeId="5" clipDistance="300" nodeId="156" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder7" translation="0.75 0 0" shapeId="5" clipDistance="300" nodeId="157" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder9" translation="1.5 0 0" shapeId="5" clipDistance="300" nodeId="158" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="greenLine" translation="-1.125 1.1024e-07 -1.1024e-07" rotation="180 0 90" scale="1 0.75 1" shapeId="6" clipDistance="300" nodeId="159" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5">
+            <Shape name="pyramid" translation="0.9 7.80883e-08 -3.41335e-15" scale="0.05 0.3 0.05" shapeId="7" nodeId="160" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5"/>
+          </Shape>
+          <Shape name="greenLine" translation="1.125 1.1024e-07 -1.1024e-07" rotation="180 0 90" scale="1 0.75 1" shapeId="6" clipDistance="300" nodeId="161" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5">
+            <Shape name="pyramid" translation="0.9 7.80883e-08 -3.41335e-15" scale="0.05 0.3 0.05" shapeId="7" nodeId="162" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="B" translation="0.5 0 0" rotation="0 90 0" clipDistance="300" nodeId="163">
+          <Shape name="cylinder1" translation="-1.5 0 0" shapeId="5" clipDistance="300" nodeId="164" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder3" translation="-0.75 0 0" shapeId="5" clipDistance="300" nodeId="165" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder4" translation="-0.5 0 0" shapeId="5" clipDistance="300" nodeId="166" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="greenLine" translation="-1.125 1.1024e-07 -1.1024e-07" rotation="180 0 90" scale="1 0.75 1" shapeId="6" clipDistance="300" nodeId="170" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5">
+            <Shape name="pyramid" translation="0.9 7.80883e-08 -3.41335e-15" scale="0.05 0.3 0.05" shapeId="7" nodeId="171" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="C" translation="0 0 -0.5" rotation="0 180 0" clipDistance="300" nodeId="174">
+          <Shape name="cylinder1" translation="-1.5 0 0" shapeId="5" clipDistance="300" nodeId="175" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder9" translation="1.5 0 0" shapeId="5" clipDistance="300" nodeId="180" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="greenLine" translation="0 1.1024e-07 -1.1024e-07" rotation="180 0 90" scale="1 3 1" shapeId="6" clipDistance="300" nodeId="181" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5">
+            <Shape name="pyramid" translation="0.9 7.80883e-08 -3.41335e-15" scale="0.05 0.3 0.05" shapeId="7" nodeId="182" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="D" translation="-0.5 0 0" rotation="0 -90 0" clipDistance="300" nodeId="185">
+          <Shape name="cylinder6" translation="0.5 0 0" shapeId="5" clipDistance="300" nodeId="189" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder7" translation="0.75 0 0" shapeId="5" clipDistance="300" nodeId="190" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="cylinder9" translation="1.5 0 0" shapeId="5" clipDistance="300" nodeId="191" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="6"/>
+          <Shape name="greenLine" translation="1.125 1.1024e-07 -1.1024e-07" rotation="180 0 90" scale="1 0.75 1" shapeId="6" clipDistance="300" nodeId="194" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5">
+            <Shape name="pyramid" translation="0.9 7.80883e-08 -3.41335e-15" scale="0.05 0.3 0.05" shapeId="7" nodeId="195" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="5"/>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="collisions" clipDistance="300" nodeId="196"/>
+      <TransformGroup name="indoorAreas" nodeId="197">
+        <TransformGroup name="indoorAreaStart01" nodeId="198">
+          <TransformGroup name="indoorAreaWidth01" nodeId="199"/>
+          <TransformGroup name="indoorAreaHeight01" nodeId="200"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

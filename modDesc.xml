@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="106">
+    <author>Willi Willswissen</author>
+	<contributors>AutoDrive Team</contributors>
+    <version>3.0.1.0</version>
+    <title> 
+        <en>AD-Intersections AiO</en>
+        <de>AD-Kreuzungen AiO</de>
+    </title>
+    <description>
+        <en> <![CDATA[
+
+Placeable Crossings
+With this mod you can build a finished AD intersection on the map.
+In the construction menu under Decorations - Other you will find four X and T intersections with track widths of 3m, 4m, 5m and 6m.
+These intersections have a positioning aid (yellow cross) to align them.
+If you leave the construction menu after placing them, the waypoints of an AD intersection are created with a destination point in the middle.
+You can then connect these to your route network. The yellow cross can be sold again via the construction menu.
+You should delete the destination points of the intersections again after completing the routes, otherwise they will influence the route calculation
+by AutoDrive. They are very useful for creating routes, as they allow you to drive directly to every intersection with AutoDrive.
+You need a mod that allows placement on land that does not belong to you.
+
+Changelog:
+V1.0.0.1
+- changed collision mask
+V1.1.0.0
+- revised design for the right-of-way rule
+V3.0.1.0
+- revised design for the right-of-way rules with green lines introduced in AutoDrive 3.0.1.0
+
+]]>
+        </en>
+        <de> <![CDATA[
+
+Platzierbare Kreuzungen
+Mit diesem Mod könnt ihr euch eine fertige AD Kreuzung auf der Map bauen.
+Ihr findet im Baumenü unter Dekorationen - Sonstiges vier X und T Kreuzungen mit den Spurweiten 3m, 4m, 5m und 6m.
+Diese Kreuzungen haben eine Positionierhilfe (gelbes Kreuz) um sie auszurichten.
+Verlasst ihr nach der Platzierung das Baumenü, werden die Wegpunkte einer AD Kreuzung mit einem Zielpunkt in der Mitte angelegt.
+Ihr könnt diese dann mit eurem Streckennetz verbinden. Das gelbe Kreuz kann über des Baumenü wieder verkauft werden.
+Die Zielpunkte der Kreuzungen solltet ihr nach Fertigstellung der Routen wieder löschen, da sie sonst Einfluss auf die Wegberechnung
+von AutoDrive haben. Zur Erstellung der Routen sind sie ganz nützlich, da sich so mit AutoDrive jede Kreuzung direkt anfahren läßt.
+Ihr braucht einen Mod, der das Platzieren auf Land erlaubt, das euch nicht gehört.
+
+Changelog:
+V1.0.0.1
+- geänderte Kollisions-Maske
+V1.1.0.0
+- überarbeitetes Design für die Vorfahrtsregelung
+V3.0.1.0
+- überarbeitetes Design für die Vorfahrtsregelung mit grünen Linien eingeführt in Autodrive 3.0.1.0
+
+]]>
+        </de>
+    </description>
+    
+    <l10n>
+        <text name="storeItem_xcrossing-3m-line"> <en>AD-X-AiO 3m with lines</en> <de>AD-X-AiO 3m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-4m-line"> <en>AD-X-AiO 4m with lines</en> <de>AD-X-AiO 4m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-5m-line"> <en>AD-X-AiO 5m with lines</en> <de>AD-X-AiO 5m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-6m-line"> <en>AD-X-AiO 6m with lines</en> <de>AD-X-AiO 6m mit Hilfslinien</de> </text>
+        <text name="storeItem_tcrossing-3m-line"> <en>AD-T-AiO 3m with lines</en> <de>AD-T-AiO 3m mit Hilfslinien</de> </text>
+        <text name="storeItem_tcrossing-4m-line"> <en>AD-T-AiO 4m with lines</en> <de>AD-T-AiO 4m mit Hilfslinien</de> </text>
+        <text name="storeItem_tcrossing-5m-line"> <en>AD-T-AiO 5m with lines</en> <de>AD-T-AiO 5m mit Hilfslinien</de> </text>
+        <text name="storeItem_tcrossing-6m-line"> <en>AD-T-AiO 6m with lines</en> <de>AD-T-AiO 6m mit Hilfslinien</de> </text>
+    </l10n>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon_AutoDrive_xCrossing.png</iconFilename>
+
+    <storeItems>
+		<storeItem xmlFilename="xcrossing-3m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-4m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-5m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-6m-line.xml"/>
+		<storeItem xmlFilename="tcrossing-3m-line.xml"/>
+		<storeItem xmlFilename="tcrossing-4m-line.xml"/>
+		<storeItem xmlFilename="tcrossing-5m-line.xml"/>
+		<storeItem xmlFilename="tcrossing-6m-line.xml"/>
+    </storeItems>
+</modDesc>

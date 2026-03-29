@@ -18,13 +18,13 @@ For help & support, feel free to join us on Discord:
 https://discord.gg/2XfnM59DFy
 
 ## Platzierbare Kreuzungen (separater Mod)
-Mit diesem Mod könnt ihr euch eine fertige AD Kreuzung auf der Map bauen.
-Ihr findet im Baumenü unter Dekorationen - Sonstiges vier Kreuzungen mit den Spurweiten 3m, 4m, 5m und 6m.
+Mit diesem Mod könnt ihr euch eine fertige AD Kreuzung/Einmündung auf der Map bauen.
+Ihr findet im Baumenü unter Dekorationen - Sonstiges vier Kreuzungen/Einmündungen mit den Spurweiten 3m, 4m, 5m und 6m.
 Diese Kreuzungen haben eine Positionierhilfe (gelbes Kreuz) um sie auszurichten.
-Verlasst ihr nach der Platzierung das Baumenü, werden die Wegpunkte einer AD Kreuzung mit einem Zielpunkt in der Mitte angelegt.
+Verlasst ihr nach der Platzierung das Baumenü, werden die Wegpunkte einer AD Kreuzung/Einmündung mit einem Zielpunkt in der Mitte angelegt.
 Ihr könnt diese dann mit eurem Streckennetz verbinden. Das gelbe Kreuz kann über des Baumenü wieder verkauft werden.
-Die Zielpunkte der Kreuzungen solltet ihr nach Fertigstellung der Routen wieder löschen, da sie sonst Einfluss auf die Wegberechnung
-von AutoDrive haben. Zur Erstellung der Routen sind sie ganz nützlich, da sich so mit AutoDrive jede Kreuzung direkt anfahren läßt.
+Die Zielpunkte der Kreuzungen/Einmündung solltet ihr nach Fertigstellung der Routen wieder löschen, da sie sonst Einfluss auf die Wegberechnung
+von AutoDrive haben. Zur Erstellung der Routen sind sie ganz nützlich, da sich so mit AutoDrive jede Kreuzung/Einmündung direkt anfahren läßt.
 Ihr braucht einen Mod, der das Platzieren auf Land erlaubt, das euch nicht gehört.
 
 ## Placeable Crossings (separate mod)
